@@ -39,6 +39,7 @@ const myFunction = function(){
 console.log(typeof heros );
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//Storage concept basiscs
 
 //Stack (Primitive), Heap (Non-Primitive)
 
@@ -61,4 +62,5 @@ userTwo.email = "anirban@gmail.com"
 
 console.log(userOne.email);
 console.log(userTwo.email);
+
 
