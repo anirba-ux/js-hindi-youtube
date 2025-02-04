@@ -56,12 +56,34 @@ const tinderUser1 = {}
 tinderUser1.id = "123abc"
 tinderUser1.name = "Anirban"
 tinderUser1.isLoggedIn = false
-console.log(tinderUser1);
-console.log(Object.keys(tinderUser1))
-console.log(Object.values(tinderUser1))
-console.log(Object.entries(tinderUser1))
+// console.log(tinderUser1);
+// console.log(Object.keys(tinderUser1))
+// console.log(Object.values(tinderUser1))
+// console.log(Object.entries(tinderUser1))
 
 console.log(tinderUser1.hasOwnProperty('isLoggedIn'))
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "anirban",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
 
 
 
