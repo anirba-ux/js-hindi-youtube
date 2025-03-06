@@ -33,3 +33,4 @@ const userTwo = new User("ChaiAurCode", 11, false)
 console.log(userOne.constructor);
 console.log(userTwo);
 
+// This is a oop discussion
